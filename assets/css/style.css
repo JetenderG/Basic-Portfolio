@@ -1,26 +1,30 @@
 
 
-p{
+p {
 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: rgb(119,119,199);
+    color: rgb(119,119,119);
 
 }
 
 #middle{
 
+background-color:white;
 
-    background-color:white;
 }
-
 
 #background{
 
 
-    background-image:""
 
+    background-image:url("/Users/jetenderghatorora/Basic-Portfolio/assets/images/dust_scratches.png")
 
+}
 
+#portfolioholder{
+
+    width:"50px";
+    height:"50px";
 
 
 }
