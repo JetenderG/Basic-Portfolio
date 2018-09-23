@@ -1,30 +1,115 @@
-
-
 p {
-
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: rgb(119,119,119);
 
 }
 
-#middle{
+.content{
+    background-color:white;
+    overflow: auto;
+    width: 960px;
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 20%;
+    bottom: 50px;
 
-background-color:white;
-
+    
+    
 }
 
-#background{
+.container{
+    position: fixed;
+    top:-82px;
+    left:0;
+    min-width:1024 ;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    clear:both;
+    position: relative;
+    padding: 100px 20px 120px;
+    margin-top: 80px;
+  
 
-
-
-    background-image:url("/Users/jetenderghatorora/Basic-Portfolio/assets/images/dust_scratches.png")
-
+    
+    
 }
 
 #portfolioholder{
+    width:220px;
+    height:170px;
+    float:left;
+    margin: 30px;
+}
 
-    width:"50px";
-    height:"50px";
+.contact{
+
+    background-color: white;
+    
+}
+
+.links{
+
+    width: 400px;
+    display:inline-block;
+    position: relative;
+    text-align: right;
+    bottom: 40px;
+    left: 910px;
+}
+
+.name{
 
 
+    margin-left: 10px;
+    background-color: #4aaaa5;
+    color:white;
+    width: 248px;
+    height: 89px;
+    margin:auto 250px;
+    
+    
+}
+
+.footer{
+
+    border-top-color:#4aaaa5;
+    background-color:#666666;
+    flex: 1 0 auto;
+    clear:both;
+    bottom:0;
+    left:0;
+    width: 100%;
+    position:fixed;
+    flex-shrink: 0;
+    text-align: center;
+    border-top: 5px #4aaaa5;
+    display: inline-block;
+    line-height: 7;
+    
+    
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+html body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image:url("/Users/jetenderghatorora/Basic-Portfolio/assets/images/dust_scratches.png");
+width: 100%;
+}
+
+.top{
+    width: 100%;
+    position: relative;
+    background-color: white;
+    height: 90px;
 }
